@@ -9,6 +9,11 @@
 
 View the [**case study**](https://8weeksqlchallenge.com/case-study-1/) and my [**solution**](https://github.com/katiehuangx/8-Week-SQL-Challenge/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner) 
 
+<details>
+<summary>
+Click here to expand!
+</summary>
+
 ### Business Task:
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. 
 
@@ -30,7 +35,7 @@ Danny wants to use the data to answer a few simple questions about his customers
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, 
     not just sushi - how many points do customer A and B have at the end of January?
 
-
+</details>
 
 ***
 
