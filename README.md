@@ -1,4 +1,4 @@
-**[#8WeekSQLChallenge](https://8weeksqlchallenge.com)**
+**[#8WeekSQLChallenge](https://8weeksqlchallenge.com)** by Danny Ma
 
 ## Table of Contents
 - [Case Study #1: Danny's Diner](#case-study-1-dannys-diner)
