@@ -1,4 +1,4 @@
-
+-- CREATING DATA SET
 CREATE TABLE sales (
   "customer_id" VARCHAR(1),
   "order_date" DATE,
@@ -57,6 +57,8 @@ Select *
 From menu
 Select *
 From Sales
+
+-- SOLUTIONS
 
 --1 Total amount spend by each customer
 Select S.customer_id, Sum(M.price)
@@ -184,12 +186,12 @@ WITH dates AS
 )
 Select S.Customer_id, 
        SUM(
-	       Case 
-		       When m.product_ID = 1 THEN m.price*20
-		       When S.order_date between D.join_date and D.valid_date Then m.price*20
-		       Else m.price*10
-		       END 
-		  ) as Points
+	   Case 
+	  When m.product_ID = 1 THEN m.price*20
+	  When S.order_date between D.join_date and D.valid_date Then m.price*20
+	  Else m.price*10
+	  END 
+	  ) as Points
 From Dates D
 join Sales S
 On D.customer_id = S.customer_id
@@ -197,3 +199,4 @@ Join Menu M
 On M.product_id = S.product_id
 Where S.order_date < d.last_date
 Group by S.customer_id
+
