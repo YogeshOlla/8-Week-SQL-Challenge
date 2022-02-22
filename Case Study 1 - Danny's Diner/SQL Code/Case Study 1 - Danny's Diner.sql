@@ -137,7 +137,7 @@ With Rank as
 (
 Select  S.customer_id,
         M.product_name,
-	Dense_rank() OVER (Partition by S.Customer_id Order by S.Order_date) as Rank
+	Dense_rank() OVER (Partition by S.Customer_id Order by S.Order_date desc) as Rank
 From Sales S
 Join Menu M
 ON m.product_id = s.product_id
