@@ -1,3 +1,4 @@
+-- This is the solution for 1st case study of the challenge
 -- CREATING DATA SET
 CREATE TABLE sales (
   "customer_id" VARCHAR(1),
